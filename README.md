@@ -1,16 +1,10 @@
 <div align="center">
 
-<a href="YOUR_GITHUB_URL">
-  <img src="https://img.shields.io/badge/GitHub-18181B?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-&nbsp;
-<a href="YOUR_LINKEDIN_URL">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-&nbsp;
-<a href="YOUR_FIVERR_URL">
-  <img src="https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" />
-</a>
+<img
+  src="https://i.pinimg.com/736x/d3/fd/09/d3fd09d234163e9f21f3dbc93670e1e9.jpg"
+  width="100%"
+  alt="Cover"
+/>
 
 </div>
 
