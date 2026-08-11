@@ -1,61 +1,60 @@
 <div align="center">
 
+<!-- COVER -->
 <img
   src="https://i.pinimg.com/736x/d3/fd/09/d3fd09d234163e9f21f3dbc93670e1e9.jpg"
   width="100%"
   alt="Pixel art coding cover"
 />
 
-<br>
+<br><br>
+
+<!-- SOCIALS -->
+<a href="https://github.com/manjulpandey17">
+  <img src="https://skillicons.dev/icons?i=github&theme=dark" width="55" alt="GitHub"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="YOUR_LINKEDIN_URL">
+  <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="55" alt="LinkedIn"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="mailto:YOUR_GMAIL@gmail.com">
+  <img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="55" alt="Gmail"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="YOUR_FIVERR_URL">
+  <img src="https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" height="28" alt="Fiverr"/>
+</a>
+
+<br><br>
 
 # Hi, I'm Manjul 👋
 
-### Full-Stack Developer · DSA · Embedded Systems
+### AI/ML Enthusiast · Developer · Embedded Systems Explorer
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+full-stack+web+applications;Solving+DSA+one+problem+at+a+time;Tinkering+with+Arduino%2C+ESP32+%26+Raspberry+Pi;Probably+debugging+something+right+now"
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=700&lines=Exploring+AI%2C+ML+%26+intelligent+systems;Building+web+applications+and+useful+things;Tinkering+with+Arduino%2C+ESP32+%26+Raspberry+Pi;Learning+something+new+every+day"
   alt="Typing animation"
 />
-
-<br>
-
-<a href="https://github.com/manjulpandey17">
-  <img src="https://img.shields.io/badge/GitHub-18181B?style=for-the-badge&logo=github&logoColor=white" height="30" />
-</a>
-&nbsp;
-<a href="YOUR_LINKEDIN_URL">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="30" />
-</a>
-&nbsp;
-<a href="mailto:YOUR_GMAIL@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="30" />
-</a>
-&nbsp;
-<a href="YOUR_FIVERR_URL">
-  <img src="https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" height="30" />
-</a>
 
 </div>
 
 ---
 
-## `> whoami` 🧑‍💻
+## 👨‍💻 About Me
 
-I'm a developer who enjoys working across different layers of technology — from building web applications to getting microcontrollers to cooperate.
+- 🤖 Exploring **Artificial Intelligence & Machine Learning**
+- 💻 Building with **JavaScript, React, Node.js & Python**
+- 🧠 Practising **Data Structures & Algorithms**
+- ⚡ Experimenting with **Arduino, ESP32 & Raspberry Pi**
+- 🔧 I like understanding how things work rather than just using them
+- 🚀 Always working on something that teaches me something new
 
-Currently focused on:
-
-- 🚀 **Full-stack development** with React, Node.js and modern web technologies
-- 🧠 **Data Structures & Algorithms** through LeetCode, GeeksforGeeks and HackerRank
-- ⚡ **Embedded systems** using Arduino, ESP32 and Raspberry Pi
-- 🛠️ Building things that force me to learn something new
-- 📚 Improving my fundamentals instead of just collecting frameworks
-
-> `build → break → debug → repeat`
+> `learn → build → break → fix → repeat`
 
 ---
 
-## `// tech_stack` ⚙️
+## ⚙️ Tech Stack
 
 ### Languages
 
@@ -65,11 +64,11 @@ Currently focused on:
 
 </div>
 
-### Development
+### AI / ML & Development
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,bootstrap&theme=dark&perline=6" />
+<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,react,nextjs,nodejs,express&theme=dark&perline=7" />
 
 </div>
 
@@ -95,15 +94,15 @@ Currently focused on:
 
 <img src="https://skillicons.dev/icons?i=arduino,raspberrypi&theme=dark&perline=4" />
 
-</div>
+<br>
 
-<p align="center">
-  <sub>Arduino · ESP32 · Raspberry Pi</sub>
-</p>
+<sub>Arduino · ESP32 · Raspberry Pi</sub>
+
+</div>
 
 ---
 
-## `// github_stats` 📊
+## 📊 GitHub Stats
 
 <div align="center">
 
@@ -130,26 +129,26 @@ Currently focused on:
 
 ---
 
-## `// connect` 🔗
+## 🔗 Connect With Me
 
 <div align="center">
 
 <a href="https://github.com/manjulpandey17">
-  <img src="https://skillicons.dev/icons?i=github&theme=dark" width="55" />
+  <img src="https://skillicons.dev/icons?i=github&theme=dark" width="55" alt="GitHub"/>
 </a>
 &nbsp;&nbsp;&nbsp;
 <a href="YOUR_LINKEDIN_URL">
-  <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="55" />
+  <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="55" alt="LinkedIn"/>
 </a>
 &nbsp;&nbsp;&nbsp;
 <a href="mailto:YOUR_GMAIL@gmail.com">
-  <img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="55" />
+  <img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="55" alt="Gmail"/>
 </a>
 
-<br>
+<br><br>
 
 <a href="YOUR_FIVERR_URL">
-  <img src="https://img.shields.io/badge/Fiverr-1DBF73?style=flat-square&logo=fiverr&logoColor=white" />
+  <img src="https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr"/>
 </a>
 
 <br><br>
