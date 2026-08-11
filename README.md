@@ -4,7 +4,6 @@
 
 <br><br>
 
-<!-- SOCIALS -->
 <a href="https://github.com/manjulpandey17"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="55" alt="GitHub"/></a>
 &nbsp;&nbsp;&nbsp;
 <a href="YOUR_LINKEDIN_URL"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="55" alt="LinkedIn"/></a>
@@ -15,7 +14,7 @@
 
 <br><br>
 
-# Hey, I'm Manjul 
+# Hey, I'm Manjul 👋
 
 ### AI/ML Enthusiast · Developer · Embedded Systems Explorer
 
@@ -74,13 +73,16 @@
 
 ---
 
-## 📊 GitHub Stats
+## 📈 GitHub Activity
 
 <div align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=manjulpandey17&show_icons=true&hide_border=true&theme=github_dark&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="GitHub Stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manjulpandey17&layout=compact&hide_border=true&theme=github_dark&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=manjulpandey17&theme=github_dark" width="95%" alt="GitHub activity summary"/>
+
 <br><br>
-<img src="https://streak-stats.demolab.com?user=manjulpandey17&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=FF8C42&currStreakLabel=58A6FF" alt="GitHub Streak"/>
+
+<img src="https://streak-stats.demolab.com?user=manjulpandey17&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=FF8C42&currStreakLabel=58A6FF" alt="GitHub streak"/>
+
 </div>
 
 ---
