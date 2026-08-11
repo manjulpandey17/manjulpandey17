@@ -15,7 +15,7 @@
 
 <br><br>
 
-# Hi, I'm Manjul 👋
+# Hey, I'm Manjul 
 
 ### AI/ML Enthusiast · Developer · Embedded Systems Explorer
 
