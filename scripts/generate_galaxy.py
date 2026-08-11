@@ -18,29 +18,19 @@ def fetch_days(username):
     r.raise_for_status()
     total_match = re.search(r'(\d[\d,]*) contributions? in the last year', r.text)
     profile_total = int(total_match.group(1).replace(',', '')) if total_match else None
-
     days = []
     for tag in re.findall(r"<[^>]+data-date=\"[^\"]+\"[^>]*>", r.text):
         dm = re.search(r'data-date="([^"]+)"', tag)
         lm = re.search(r'data-level="([0-4])"', tag)
-        if not dm or not lm:
-            continue
-        days.append({"date": dm.group(1), "level": int(lm.group(1))})
-
+        if dm and lm:
+            days.append({"date": dm.group(1), "level": int(lm.group(1))})
     if not days:
         query = '''query($login: String!) { user(login: $login) { contributionsCollection { contributionCalendar { totalContributions weeks { contributionDays { date contributionCount } } } } } }'''
-        api = requests.post(
-            "https://api.github.com/graphql",
-            headers={"Authorization": f"bearer {os.environ.get('GITHUB_TOKEN', '')}"},
-            json={"query": query, "variables": {"login": username}},
-            timeout=30,
-        )
+        api = requests.post("https://api.github.com/graphql", headers={"Authorization": f"bearer {os.environ.get('GITHUB_TOKEN', '')}"}, json={"query": query, "variables": {"login": username}}, timeout=30)
         api.raise_for_status()
         calendar = api.json()["data"]["user"]["contributionsCollection"]["contributionCalendar"]
-        days = [{"date": d["date"], "level": min(4, d["contributionCount"])}
-                for week in calendar["weeks"] for d in week["contributionDays"]]
+        days = [{"date": d["date"], "level": min(4, d["contributionCount"])} for week in calendar["weeks"] for d in week["contributionDays"]]
         profile_total = calendar["totalContributions"]
-
     return profile_total if profile_total is not None else sum(d["level"] for d in days), days
 
 
@@ -51,23 +41,9 @@ def make_particles(days):
     particles = []
     for d in active:
         strength = d["level"] / max_level
-        particles.append({
-            "angle": random.random() * math.tau,
-            "radius": (0.12 + random.random() ** 0.72 * 0.88) * 175,
-            "strength": strength,
-            "size": 2.0 + 7.0 * strength,
-            "phase": random.random() * math.tau,
-            "real": True,
-        })
+        particles.append({"angle": random.random() * math.tau, "radius": (0.12 + random.random() ** 0.72 * 0.88) * 175, "strength": strength, "size": 2.0 + 7.0 * strength, "phase": random.random() * math.tau, "real": True})
     for _ in range(180):
-        particles.append({
-            "angle": random.random() * math.tau,
-            "radius": random.uniform(45, 280),
-            "strength": random.uniform(0.01, 0.08),
-            "size": random.choice([0.5, 0.7, 0.9, 1.1]),
-            "phase": random.random() * math.tau,
-            "real": False,
-        })
+        particles.append({"angle": random.random() * math.tau, "radius": random.uniform(45, 280), "strength": random.uniform(0.01, 0.08), "size": random.choice([0.5, 0.7, 0.9, 1.1]), "phase": random.random() * math.tau, "real": False})
     return particles
 
 
@@ -132,31 +108,19 @@ def generate_dashboard(total, days, output):
             y = random.randint(125, 172)
             dots.append(f'<circle cx="{x}" cy="{y}" r="{2+d["level"]}" fill="#58A6FF" opacity="{0.45+0.12*d["level"]}"/>')
     wave = " ".join(f"L{x} {168-random.randint(0,12)}" for x in range(64, 1157, 16))
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
-<rect width="100%" height="100%" rx="18" fill="#0D1117"/>
-<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="18" fill="none" stroke="#30363D"/>
-<text x="44" y="48" fill="#F0F6FC" font-family="Arial,sans-serif" font-size="23" font-weight="700">GITHUB // ACTIVITY</text>
-<text x="44" y="78" fill="#8B949E" font-family="Arial,sans-serif" font-size="15">{total} contributions · {year} · {active} active days</text>
-<text x="1040" y="48" fill="#58A6FF" font-family="Arial,sans-serif" font-size="14">● LIVE</text>
-<line x1="44" y1="100" x2="1156" y2="100" stroke="#21262D"/>
-<text x="44" y="130" fill="#8B949E" font-family="monospace" font-size="13">ACTIVITY SIGNAL</text>
-<path d="M44 168 {wave}" fill="none" stroke="#58A6FF" stroke-width="2" opacity="0.35"/>
-{''.join(dots)}
-<text x="44" y="193" fill="#58A6FF" font-family="monospace" font-size="12">BUILD · LEARN · EXPERIMENT · REPEAT</text>
-</svg>'''
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}"><rect width="100%" height="100%" rx="18" fill="#0D1117"/><rect x="1" y="1" width="{W-2}" height="{H-2}" rx="18" fill="none" stroke="#30363D"/><text x="44" y="48" fill="#F0F6FC" font-family="Arial,sans-serif" font-size="23" font-weight="700">GITHUB // ACTIVITY</text><text x="44" y="78" fill="#8B949E" font-family="Arial,sans-serif" font-size="15">{total} contributions · {year} · {active} active days</text><text x="1040" y="48" fill="#58A6FF" font-family="Arial,sans-serif" font-size="14">● LIVE</text><line x1="44" y1="100" x2="1156" y2="100" stroke="#21262D"/><text x="44" y="130" fill="#8B949E" font-family="monospace" font-size="13">ACTIVITY SIGNAL</text><path d="M44 168 {wave}" fill="none" stroke="#58A6FF" stroke-width="2" opacity="0.35"/>{''.join(dots)}<text x="44" y="193" fill="#58A6FF" font-family="monospace" font-size="12">BUILD · LEARN · EXPERIMENT · REPEAT</text></svg>'''
     Path(output).write_text(svg, encoding="utf-8")
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--username", default=os.environ.get("GITHUB_USERNAME", "manjulpandey17"))
+    parser.add_argument("--username", default=os.environ.get("GITHUB_USERNAME", "manjulpndey"))
     parser.add_argument("--output", default="assets/contribution-galaxy.gif")
     args = parser.parse_args()
     total, days = fetch_days(args.username)
     print(f"Fetched {total} contributions for {args.username}")
     generate_galaxy(days, args.username, args.output)
     generate_dashboard(total, days, "assets/github-activity.svg")
-
 
 if __name__ == "__main__":
     main()
