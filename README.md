@@ -6,7 +6,7 @@
 
 <a href="https://github.com/manjulpndey"><img src="https://cdn.simpleicons.org/github/FFFFFF" width="55" alt="GitHub"/></a>
 &nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/manjul-pandey17/"><img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="55" alt="LinkedIn"/></a>
+<a href="https://www.linkedin.com/in/manjul-pandey17/"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="55" alt="LinkedIn"/></a>
 &nbsp;&nbsp;&nbsp;
 <a href="mailto:manjulpandey.in@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="55" alt="Gmail"/></a>
 &nbsp;&nbsp;&nbsp;
