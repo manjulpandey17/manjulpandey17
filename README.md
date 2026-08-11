@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Header GIF Banner -->
-  <img src="https://raw.githubusercontent.com/Suryansh-Sharan/Suryansh-Sharan/main/assets/banner.gif" width="100%" alt="Header Banner" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="Header Banner" />
 
   <br/><br/>
 
@@ -13,8 +13,8 @@
   <br/><br/>
 
   <!-- Social Badges -->
-  <a href="https:///github.com/manjulpandey17/">
-    <img src="https://img.shields.io/badge/WEBSITE-E0E0E0?style=for-the-badge&logoColor=black" alt="Website" />
+  <a href="https://github.com/manjulpandey17">
+    <img src="https://img.shields.io/badge/GITHUB-E0E0E0?style=for-the-badge&logo=github&logoColor=black" alt="GitHub" />
   </a>
   <a href="https://linkedin.com/in/manjul-pandey17">
     <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -34,14 +34,18 @@
 - 🎯 **Looking for:** Opportunities to collaborate on exciting full-stack or machine learning initiatives.
 - ☕ **Driven by:** Clean design, elegant code, and endless cups of coffee.
 - 💬 **Let's connect:** Feel free to reach out via email or LinkedIn!
----
-## 🛠️ Languages & Frameworks
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+---
+
+## 🛠️ Tech Stack & Skills
+
+![Languages](https://skillicons.dev/icons?i=py,cpp,ts,js,react,nextjs,nodejs,express,pytorch,docker,aws,git,github,vscode)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=manjulpandey17&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=manjulpandey17&theme=tokyonight" alt="GitHub Streak" />
+</p>
