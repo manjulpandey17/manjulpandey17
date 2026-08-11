@@ -23,11 +23,7 @@
 </a>
 &nbsp;&nbsp;&nbsp;
 <a href="YOUR_FIVERR_URL">
-  <img
-    src="https://cdn.simpleicons.org/fiverr/1DBF73"
-    width="55"
-    alt="Fiverr"
-  />
+  <img src="https://cdn.simpleicons.org/fiverr/1DBF73" width="55" alt="Fiverr"/>
 </a>
 
 <br><br>
@@ -106,7 +102,19 @@
 
 ---
 
+## 🌌 Contribution Galaxy
 
+<div align="center">
+
+<img
+  src="./assets/contribution-galaxy.gif"
+  width="100%"
+  alt="Manjul's GitHub Contribution Galaxy"
+/>
+
+</div>
+
+---
 
 ## 🔗 Connect With Me
 
@@ -123,15 +131,9 @@
 <a href="mailto:YOUR_GMAIL@gmail.com">
   <img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="55" alt="Gmail"/>
 </a>
-
-<br><br>
-
+&nbsp;&nbsp;&nbsp;
 <a href="YOUR_FIVERR_URL">
-  <img
-    src="https://cdn.simpleicons.org/fiverr/1DBF73"
-    width="55"
-    alt="Fiverr"
-  />
+  <img src="https://cdn.simpleicons.org/fiverr/1DBF73" width="55" alt="Fiverr"/>
 </a>
 
 <br><br>
