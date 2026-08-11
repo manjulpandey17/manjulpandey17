@@ -4,7 +4,7 @@
 
 <br><br>
 
-<a href="https://github.com/manjulpandey17"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="55" alt="GitHub"/></a>
+<a href="https://github.com/manjulpndey"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="55" alt="GitHub"/></a>
 &nbsp;&nbsp;&nbsp;
 <a href="YOUR_LINKEDIN_URL"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="55" alt="LinkedIn"/></a>
 &nbsp;&nbsp;&nbsp;
@@ -78,7 +78,7 @@
 <div align="center">
 <img src="./assets/github-activity.svg" width="100%" alt="GitHub activity dashboard"/>
 <br><br>
-<img src="https://streak-stats.demolab.com?user=manjulpandey17&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=FF8C42&currStreakLabel=58A6FF" alt="GitHub streak"/>
+<img src="https://streak-stats.demolab.com?user=manjulpndey&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=FF8C42&currStreakLabel=58A6FF" alt="GitHub streak"/>
 </div>
 
 ---
