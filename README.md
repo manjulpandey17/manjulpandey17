@@ -23,7 +23,11 @@
 </a>
 &nbsp;&nbsp;&nbsp;
 <a href="YOUR_FIVERR_URL">
-  <img src="https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" height="28" alt="Fiverr"/>
+  <img
+    src="https://cdn.simpleicons.org/fiverr/1DBF73"
+    width="55"
+    alt="Fiverr"
+  />
 </a>
 
 <br><br>
@@ -102,32 +106,7 @@
 
 ---
 
-## 📊 GitHub Stats
 
-<div align="center">
-
-<img
-  height="170"
-  src="https://github-readme-stats.vercel.app/api?username=manjulpandey17&show_icons=true&hide_border=true&theme=github_dark&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9"
-  alt="GitHub Stats"
-/>
-
-<img
-  height="170"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=manjulpandey17&layout=compact&hide_border=true&theme=github_dark&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9"
-  alt="Top Languages"
-/>
-
-<br><br>
-
-<img
-  src="https://streak-stats.demolab.com?user=manjulpandey17&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=FF8C42&currStreakLabel=58A6FF"
-  alt="GitHub Streak"
-/>
-
-</div>
-
----
 
 ## 🔗 Connect With Me
 
@@ -148,7 +127,11 @@
 <br><br>
 
 <a href="YOUR_FIVERR_URL">
-  <img src="https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr"/>
+  <img
+    src="https://cdn.simpleicons.org/fiverr/1DBF73"
+    width="55"
+    alt="Fiverr"
+  />
 </a>
 
 <br><br>
