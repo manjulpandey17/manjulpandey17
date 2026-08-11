@@ -8,7 +8,6 @@ on:
       - "requirements-galaxy.txt"
       - ".github/workflows/contribution-galaxy.yml"
   schedule:
-    # GitHub contributions can take a little time to appear; refresh every 30 minutes.
     - cron: "*/30 * * * *"
 
 permissions:
@@ -38,7 +37,7 @@ jobs:
       - name: Generate galaxy + activity dashboard
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          GITHUB_USERNAME: manjulpandey17
+          GITHUB_USERNAME: manjulpndey
         run: python scripts/generate_galaxy.py
 
       - name: Commit generated visuals
