@@ -1,11 +1,10 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=wave&color=0:F72585,100:7209B7&height=200&section=header&text=Hi,%20I%20am%20Manjul%20%F0%9F%91%8B&fontSize=42&fontColor=ffffff&fontAlignY=40&animation=fadeIn" alt="Header wave banner" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=wave&color=0:F72585,100:7209B7&height=200&section=header&text=Hi,%20I%20am%20Manjul%20%F0%9F%91%8B&fontSize=42&fontColor=ffffff&fontAlignY=40&animation=fadeIn"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F72585&center=true&vCenter=true&width=700&lines=Full-stack+developer+who+occasionally+talks+to+microcontrollers;Building+web+apps+by+day+and+tinkering+with+circuits+by+night;Probably+debugging+something+right+now" alt="Typing SVG banner" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F72585&center=true&vCenter=true&width=700&lines=Full-stack+developer;Building+web+apps+and+tinkering+with+microcontrollers;Probably+debugging+something+right+now" />
 
 </div>
-
 <br>
 
 ## 🚀 About Me
@@ -21,8 +20,9 @@
 
 ## 🛠️ Tech Stack
 
-### Languages
 <div align="center">
+### Languages
+
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
@@ -33,8 +33,9 @@
 
 </div>
 
-### Frontend
 <div align="center">
+### Frontend
+
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -63,8 +64,9 @@
 
 </div>
 
-### Tools & Platforms
 <div align="center">
+### Tools & Platforms
+
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -74,8 +76,9 @@
 
 </div>
 
-### APIs & Services
 <div align="center">
+### APIs & Services
+
 
 ![Stripe](https://img.shields.io/badge/Stripe-5469D4?style=for-the-badge&logo=stripe&logoColor=white)
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
@@ -83,9 +86,9 @@
 ![GeoJSON](https://img.shields.io/badge/GeoJSON-3BB2D0?style=for-the-badge)
 
 </div>
-
-### Hardware & IoT
 <div align="center">
+### Hardware & IoT
+
 
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white)
@@ -95,9 +98,10 @@
 
 <br>
 
+<div align="center">
 ## 🧩 Where I Practice
 
-<div align="center">
+
 
 ![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=FFA116)
 ![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)
@@ -114,8 +118,8 @@
 
 <div align="center">
 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin-handle)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manjulpandey.in@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manjul--pandey17)
 [![Fiverr](https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://fiverr.com/your-fiverr-username)
 [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-gray?style=for-the-badge&logo=geeksforgeeks&logoColor=35914c)](https://www.geeksforgeeks.org/user/your-gfg-username/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=FFA116)](https://leetcode.com/your-leetcode-username/)
