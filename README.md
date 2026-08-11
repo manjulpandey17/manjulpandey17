@@ -73,16 +73,12 @@
 
 ---
 
-## 📈 GitHub Activity
+## 📡 GitHub Activity
 
 <div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=manjulpandey17&theme=github_dark" width="95%" alt="GitHub activity summary"/>
-
+<img src="./assets/github-activity.svg" width="100%" alt="GitHub activity dashboard"/>
 <br><br>
-
 <img src="https://streak-stats.demolab.com?user=manjulpandey17&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=FF8C42&currStreakLabel=58A6FF" alt="GitHub streak"/>
-
 </div>
 
 ---
