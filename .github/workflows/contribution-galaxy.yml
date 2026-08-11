@@ -2,6 +2,11 @@ name: Update Contribution Galaxy
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "scripts/generate_galaxy.py"
+      - "requirements-galaxy.txt"
+      - ".github/workflows/contribution-galaxy.yml"
   schedule:
     - cron: "17 3 * * 1"
 
