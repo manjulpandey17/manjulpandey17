@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210">
+<rect width="100%" height="100%" rx="18" fill="#0D1117"/>
+<rect x="1" y="1" width="1198" height="208" rx="18" fill="none" stroke="#30363D"/>
+<text x="44" y="48" fill="#F0F6FC" font-family="Arial,sans-serif" font-size="23" font-weight="700">GITHUB // ACTIVITY</text>
+<text x="44" y="78" fill="#8B949E" font-family="Arial,sans-serif" font-size="15">0 contributions · 2026 · 3 active days</text>
+<text x="1040" y="48" fill="#58A6FF" font-family="Arial,sans-serif" font-size="14">● LIVE</text>
+<line x1="44" y1="100" x2="1156" y2="100" stroke="#21262D"/>
+<text x="44" y="130" fill="#8B949E" font-family="monospace" font-size="13">ACTIVITY SIGNAL</text>
+<path d="M44 168 L64 166 L80 161 L96 165 L112 164 L128 158 L144 159 L160 158 L176 159 L192 156 L208 167 L224 159 L240 168 L256 160 L272 162 L288 161 L304 168 L320 160 L336 164 L352 158 L368 160 L384 157 L400 158 L416 164 L432 164 L448 168 L464 164 L480 160 L496 158 L512 156 L528 166 L544 166 L560 157 L576 163 L592 165 L608 157 L624 163 L640 167 L656 164 L672 166 L688 159 L704 164 L720 162 L736 158 L752 161 L768 164 L784 157 L800 162 L816 167 L832 159 L848 157 L864 166 L880 164 L896 158 L912 161 L928 160 L944 162 L960 157 L976 160 L992 168 L1008 156 L1024 156 L1040 156 L1056 166 L1072 159 L1088 158 L1104 163 L1120 162 L1136 167 L1152 162" fill="none" stroke="#58A6FF" stroke-width="2" opacity="0.35"/>
+<circle cx="163" cy="128" r="6" fill="#58A6FF" opacity="0.9299999999999999"/><circle cx="619" cy="145" r="6" fill="#58A6FF" opacity="0.9299999999999999"/><circle cx="102" cy="155" r="6" fill="#58A6FF" opacity="0.9299999999999999"/>
+<text x="44" y="193" fill="#58A6FF" font-family="monospace" font-size="12">BUILD · LEARN · EXPERIMENT · REPEAT</text>
+</svg>
