@@ -13,13 +13,13 @@
   <br/><br/>
 
   <!-- Social Badges -->
-  <a href="https://suryansh-sharan.github.io/">
+  <a href="https:///github.com/manjulpandey17/">
     <img src="https://img.shields.io/badge/WEBSITE-E0E0E0?style=for-the-badge&logoColor=black" alt="Website" />
   </a>
-  <a href="https://linkedin.com/in/suryansh-sharan">
+  <a href="https://linkedin.com/in/manjul-pandey17">
     <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:suryanshsharanai@gmail.com">
+  <a href="mailto:manjulpandey.in@gmail.com">
     <img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
 
@@ -27,38 +27,20 @@
 
 ---
 
-## 🚀 About Me
+## 👋 Hey, I'm Manjul!
 
-- 🔭 **Currently working on:** AI-powered full-stack applications & real-world ML systems
-- 👯 **Open to collaborate on:** Open-source AI tools, SaaS products & scalable platforms
-- 💬 **Ask me about:** Machine Learning, GenAI, System Design & Full-Stack Engineering
-- 📫 **Reach me at:** suryanshsharanai@gmail.com
-- ⚡ **Fun fact:** I turn complex systems into scalable products and coffee into code ☕⚙️
-
+- 🔭 **What I do:** I transform complex ideas into slick, scalable software and smart AI solutions.
+- 📚 **Always learning:** Constantly refining my DSA fundamentals and exploring emerging tech stack trends.
+- 🎯 **Looking for:** Opportunities to collaborate on exciting full-stack or machine learning initiatives.
+- ☕ **Driven by:** Clean design, elegant code, and endless cups of coffee.
+- 💬 **Let's connect:** Feel free to reach out via email or LinkedIn!
 ---
+## ⚡ Tech Stack & Tools
 
-## 🧠 Tech Stack
-
-### ⚙️ Programming Languages
-![Languages](https://skillicons.dev/icons?i=py,c,cpp,java,go,js,ts)
-
-### 🌐 Frontend
-![Frontend](https://skillicons.dev/icons?i=react,nextjs,vue,angular,html,css,tailwind,bootstrap)
-
-### 🖥 Backend & APIs
-![Backend](https://skillicons.dev/icons?i=nodejs,express,django,flask,dotnet)
-
-### 🤖 Machine Learning & AI
-![ML & AI](https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn)
-
-### ☁️ DevOps, Cloud & Tools
-![DevOps](https://skillicons.dev/icons?i=docker,aws,gcp,git,github,postman,vscode)
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Suryansh-Sharan&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Suryansh-Sharan&theme=tokyonight" alt="GitHub Streak" />
-</p>
+| Area | Technologies |
+| :--- | :--- |
+| **Languages** | Python, C++, Java, JavaScript, TypeScript, Go |
+| **Frontend** | React, Next.js, Tailwind CSS, HTML/CSS |
+| **Backend & Databases** | Node.js, Express, Django, Flask, PostgreSQL |
+| **AI / Machine Learning** | PyTorch, TensorFlow, OpenCV, Scikit-Learn |
+| **DevOps & Tools** | Docker, AWS, GCP, Git, GitHub, VS Code |
