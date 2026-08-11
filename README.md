@@ -1,28 +1,18 @@
 <div align="center">
 
-# MANJUL PANDEY
-
-### Full-Stack Developer · DSA · Embedded Systems
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+things+that+actually+work.;Full-stack+development+%2B+embedded+systems.;Learning%2C+building%2C+breaking%2C+debugging.;Probably+debugging+something+right+now." alt="Typing animation" />
-
-<br>
-
 <a href="YOUR_GITHUB_URL">
-<img src="https://img.shields.io/badge/GitHub-18181B?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GitHub-18181B?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 &nbsp;
 <a href="YOUR_LINKEDIN_URL">
-<img src="https://img.shields.io/badge/LinkedIn-18181B?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 &nbsp;
 <a href="YOUR_FIVERR_URL">
-<img src="https://img.shields.io/badge/Fiverr-18181B?style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr"/>
+  <img src="https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" />
 </a>
 
 </div>
-
----
 
 ## `> whoami`
 
