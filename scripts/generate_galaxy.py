@@ -16,21 +16,19 @@ def fetch_days(username):
     url = f"https://github.com/users/{username}/contributions?to={today}"
     r = requests.get(url, headers={"User-Agent": "github-contribution-galaxy"}, timeout=30)
     r.raise_for_status()
+    total_match = re.search(r'(\d[\d,]*) contributions? in the last year', r.text)
+    profile_total = int(total_match.group(1).replace(',', '')) if total_match else None
+
     days = []
     for tag in re.findall(r"<[^>]+data-date=\"[^\"]+\"[^>]*>", r.text):
         dm = re.search(r'data-date="([^"]+)"', tag)
         lm = re.search(r'data-level="([0-4])"', tag)
         if not dm or not lm:
             continue
-        label = re.search(r'aria-label="([^"]+)"', tag)
-        count = 0
-        if label:
-            cm = re.search(r"(\d+) contribution", label.group(1))
-            if cm:
-                count = int(cm.group(1))
-        days.append({"date": dm.group(1), "level": int(lm.group(1)), "count": count})
+        days.append({"date": dm.group(1), "level": int(lm.group(1))})
+
     if not days:
-        query = '''query($login: String!) { user(login: $login) { contributionsCollection { contributionCalendar { weeks { contributionDays { date contributionCount } } } } } }'''
+        query = '''query($login: String!) { user(login: $login) { contributionsCollection { contributionCalendar { totalContributions weeks { contributionDays { date contributionCount } } } } } }'''
         api = requests.post(
             "https://api.github.com/graphql",
             headers={"Authorization": f"bearer {os.environ.get('GITHUB_TOKEN', '')}"},
@@ -39,9 +37,11 @@ def fetch_days(username):
         )
         api.raise_for_status()
         calendar = api.json()["data"]["user"]["contributionsCollection"]["contributionCalendar"]
-        days = [{"date": d["date"], "level": min(4, d["contributionCount"]), "count": d["contributionCount"]}
+        days = [{"date": d["date"], "level": min(4, d["contributionCount"])}
                 for week in calendar["weeks"] for d in week["contributionDays"]]
-    return days
+        profile_total = calendar["totalContributions"]
+
+    return profile_total if profile_total is not None else sum(d["level"] for d in days), days
 
 
 def make_particles(days):
@@ -120,9 +120,8 @@ def generate_galaxy(days, username, output, frame_count=64):
     frames[0].save(output, save_all=True, append_images=frames[1:], duration=80, loop=0, optimize=True)
 
 
-def generate_dashboard(days, output):
+def generate_dashboard(total, days, output):
     random.seed(2457)
-    total = sum(d["count"] for d in days)
     active = sum(d["level"] > 0 for d in days)
     year = date.today().year
     W, H = 1200, 210
@@ -153,10 +152,10 @@ def main():
     parser.add_argument("--username", default=os.environ.get("GITHUB_USERNAME", "manjulpandey17"))
     parser.add_argument("--output", default="assets/contribution-galaxy.gif")
     args = parser.parse_args()
-    days = fetch_days(args.username)
-    print(f"Fetched {sum(d['count'] for d in days)} contributions for {args.username}")
+    total, days = fetch_days(args.username)
+    print(f"Fetched {total} contributions for {args.username}")
     generate_galaxy(days, args.username, args.output)
-    generate_dashboard(days, "assets/github-activity.svg")
+    generate_dashboard(total, days, "assets/github-activity.svg")
 
 
 if __name__ == "__main__":
