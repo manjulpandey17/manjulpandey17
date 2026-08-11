@@ -8,10 +8,15 @@ on:
       - "requirements-galaxy.txt"
       - ".github/workflows/contribution-galaxy.yml"
   schedule:
-    - cron: "17 3 * * 1"
+    # GitHub contributions can take a little time to appear; refresh every 30 minutes.
+    - cron: "*/30 * * * *"
 
 permissions:
   contents: write
+
+concurrency:
+  group: contribution-galaxy
+  cancel-in-progress: true
 
 jobs:
   galaxy:
@@ -30,22 +35,22 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements-galaxy.txt
 
-      - name: Generate galaxy
+      - name: Generate galaxy + activity dashboard
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_USERNAME: manjulpandey17
         run: python scripts/generate_galaxy.py
 
-      - name: Commit generated galaxy
+      - name: Commit generated visuals
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/contribution-galaxy.gif
+          git add assets/contribution-galaxy.gif assets/github-activity.svg
           if git diff --cached --quiet; then
-            echo "Galaxy unchanged"
+            echo "Activity visuals unchanged"
             exit 0
           fi
-          git commit -m "chore: update contribution galaxy"
+          git commit -m "chore: update GitHub activity visuals"
           git fetch origin main
           git rebase origin/main
           git push origin HEAD:main
