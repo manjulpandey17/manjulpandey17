@@ -4,13 +4,13 @@
 
 <br><br>
 
-<a href="https://github.com/manjulpndey"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="55" alt="GitHub"/></a>
+<a href="https://github.com/manjulpndey"><img src="https://cdn.simpleicons.org/github/FFFFFF" width="55" alt="GitHub"/></a>
 &nbsp;&nbsp;&nbsp;
-<a href="YOUR_LINKEDIN_URL"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="55" alt="LinkedIn"/></a>
+<a href="https://www.linkedin.com/in/manjul-pandey17/"><img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="55" alt="LinkedIn"/></a>
 &nbsp;&nbsp;&nbsp;
-<a href="mailto:YOUR_GMAIL@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="55" alt="Gmail"/></a>
+<a href="mailto:manjulpandey.in@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="55" alt="Gmail"/></a>
 &nbsp;&nbsp;&nbsp;
-<a href="YOUR_FIVERR_URL"><img src="https://cdn.simpleicons.org/fiverr/1DBF73" width="55" alt="Fiverr"/></a>
+<a href="https://www.fiverr.com/manjulpandey"><img src="https://cdn.simpleicons.org/fiverr/1DBF73" width="55" alt="Fiverr"/></a>
 
 <br><br>
 
