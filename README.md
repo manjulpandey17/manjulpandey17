@@ -95,7 +95,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/manjulpndey/manjulpndey/gh-pages/github-contribution-grid-snake-dark.svg" width="100%" alt="Manjul's GitHub contribution snake"/>
+<img src="./assets/github-contribution-grid-snake-dark.svg" width="100%" alt="Manjul's GitHub contribution snake"/>
 
 </div>
 
